@@ -1,7 +1,19 @@
+/* struttura generale */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 /* header */
@@ -13,7 +25,8 @@ header {
 
 .header-conteiner-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 .icon-name {
@@ -41,7 +54,41 @@ header {
     background-color: #fff;
     width: 60%;
     text-align: center;
-    margin: 150px auto;
+    margin: 100px auto;
 }
 
 /* main */
+
+main {
+    background-color: black;
+    width: 80%;
+    min-height: 1000px;
+    margin: 100px auto;
+    padding: 10px 0;
+}
+
+.row-white {
+    background-color: #fff;
+    height: 400px;
+    width: auto;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.row-grey {
+    background-color: rgba(255, 255, 255, 0.267);
+    height: 400px;
+    width: auto;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.img {
+    background-color: rgb(8, 245, 213);
+    height: 400px;
+    width: 400px;
+}
+
+.text {
+    background-color: rgb(8, 245, 213);
+}
