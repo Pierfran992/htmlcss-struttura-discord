@@ -24,8 +24,6 @@ header {
 }
 
 .header-conteiner-menu {
-    display: flex;
-    justify-content: space-evenly;
     padding: 20px 0;
 }
 
@@ -61,7 +59,6 @@ header {
 
 main {
     background-color: black;
-    width: 80%;
     min-height: 1000px;
     margin: 100px auto;
     padding: 10px 0;
@@ -100,6 +97,43 @@ main {
     margin-right: auto;
 }
 
-.credits {
+/* .credits {
     background-color: rgb(8, 245, 213);
+} */
+
+/* footer */
+
+footer {
+    background-color: rgb(26, 25, 25);
+    min-height: 500px;
+    padding: 10px 0;
+}
+
+.conteiner-footer {
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+}
+
+.credits {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-top: solid 2px #fff;
+    display: flex;
+    justify-content: space-between;
 }
