@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: rgb(0, 140, 255);
+    min-height: 500px;
+}
+
+.header-conteiner-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-name {
+    background-color: #fff;
+    height: 50px;
+    width: 100px;
+    
+}
+
+.menu {
+    background-color: #fff;
+    height: 50px;
+    width: 500px;
+    
+}
+
+.log-in {
+    background-color: #fff;
+    height: 50px;
+    width: 100px;
+     
+}
+
+.header-title {
+    background-color: #fff;
+    width: 60%;
+    text-align: center;
+    margin: 150px auto;
+}
+
+/* main */
